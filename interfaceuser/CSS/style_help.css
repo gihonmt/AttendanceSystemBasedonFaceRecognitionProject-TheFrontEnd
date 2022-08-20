@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; }
+
+body{
+    font-family: "PT Sans", sans-serif;
+    background-color: #547980; }
+
+.container-loginuser {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden; }
+
+.container-loginuser:before {
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 380px;
+    bottom: 0px;
+    left: 570px;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 50% 50% 0 0; }  
+    
+.forms-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+
+.back-button{
+    margin: auto;
+    width: 100%;
+    height: 73px;
+    background-color: #fff; }
+
+input#back {
+    background: url('backbutton.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 16px;
+    left: 13px;
+    width: 40px;
+    height: 40px;
+    border: 0; }
+
+.header-contact{
+    padding: 15px 80px;
+    width: 100%;
+    height: 73px;
+    background-color: #fff; }
+
+.header-contact-description{
+    font-size: 28px;
+    color: #000;
+    font-weight: normal; }
+
+.list-operator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 113px; }
+
+.operator-description{
+    text-align: center;
+    color: #fff;
+    font-size: 30px; }
+
+.form-group{
+    width: 305px; 
+    padding-bottom: 50px;}
+
+.form-control {
+    border: 1px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    background-color: #EBEBEB;
+    padding: 23.5px 20px;
+    font-size: 16px;
+    font-weight: normal; }
+    .login-card .form-control::-webkit-input-placeholder {
+    color: #001B2E; }
+    .login-card .form-control::-moz-placeholder {
+    color: #001B2E; }
+    .login-card .form-control:-ms-input-placeholder {
+    color: #001B2E; }
+    .login-card .form-control::-ms-input-placeholder {
+    color: #001B2E; }
+    .login-card .form-control::placeholder {
+    color: #001B2E; }
+    .form-control:focus {
+        outline: 0 !important;
+        border-color: initial;
+        box-shadow: none; }
+
+@media (max-width: 350px){
+    .container-loginuser:before {
+        content: "";
+        position: absolute;
+        height: 50px;
+        width: 380px;
+        bottom: -120px;
+        left: -31px;
+        background-color: rgb(255, 255, 255, 0.6);
+        border-radius: 50% 50% 0 0; }
+}
+
+@media (min-width: 360px) and (max-width: 380px){
+    .container-loginuser:before {
+        content: "";
+        position: absolute;
+        height: 45px;
+        width: 380px;
+        bottom: 0px;
+        left: -3px;
+        background-color: rgb(255, 255, 255, 0.6);
+        border-radius: 50% 50% 0 0; }
+}
+
+@media (min-height: 700px) and (max-height: 737px){
+    .container-loginuser:before {
+        content: "";
+        position: absolute;
+        height: 100px;
+        width: 450px;
+        bottom: 0px;
+        left: -20px;
+        background-color: rgb(255, 255, 255, 0.6);
+        border-radius: 50% 50% 0 0; }
+}
+
+@media (min-height: 737px) and (max-height: 740px){
+    .container-loginuser:before {
+        content: "";
+        position: absolute;
+        height: 100px;
+        width: 450px;
+        bottom: 0px;
+        left: -43px;
+        background-color: rgb(255, 255, 255, 0.6);
+        border-radius: 50% 50% 0 0; }
+}
+
+@media (min-height: 741px) and (max-height: 770px) and (max-width: 370px){
+    .container-loginuser:before {
+        content: "";
+        position: absolute;
+        height: 100px;
+        width: 450px;
+        bottom: 0px;
+        left: -45px;
+        background-color: rgb(255, 255, 255, 0.6);
+        border-radius: 50% 50% 0 0; }
+}
+
+@media (min-height: 800px) and (max-height: 820px){
+    .container-loginuser:before {
+        content: "";
+        position: absolute;
+        height: 150px;
+        width: 450px;
+        bottom: 0px;
+        left: -40px;
+        background-color: rgb(255, 255, 255, 0.6);
+        border-radius: 50% 50% 0 0; }
+}
+
+@media (min-height: 830px) and (max-height: 900px){
+    .container-loginuser:before {
+        content: "";
+        position: absolute;
+        height: 200px;
+        width: 550px;
+        bottom: 0px;
+        left: -65px;
+        background-color: rgb(255, 255, 255, 0.6);
+        border-radius: 50% 50% 0 0; }
+}
+
+@media (min-height: 900px){
+    .container-loginuser:before {
+        content: "";
+        position: absolute;
+        height: 200px;
+        width: 550px;
+        bottom: 0px;
+        left: -65px;
+        background-color: rgb(255, 255, 255, 0.6);
+        border-radius: 50% 50% 0 0; }
+}

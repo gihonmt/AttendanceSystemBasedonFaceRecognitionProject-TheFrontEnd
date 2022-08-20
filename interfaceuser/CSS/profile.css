@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; }
+
+body{
+    font-family: "PT Sans", sans-serif;
+    background-color: #fff; }
+
+.container-loginuser {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden; } 
+    
+.forms-container {
+    position: absolute;
+    width: 100%;
+    height: 117%;
+    top: 0;
+    left: 0; }
+
+.back-button{
+    margin: auto;
+    width: 100%;
+    height: 73px;
+    background-color: #64A5AF; }
+
+input#back {
+    background: url('backbutton1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 16px;
+    left: 13px;
+    width: 40px;
+    height: 40px;
+    border: 0; }
+
+.header-profile{
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #64A5AF; }
+
+.profile-name{
+    text-align: center;
+    color: #294C60;
+    font-size: 18px; 
+    font-weight: bold; }
+
+.form-profile-division{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border-style: none;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    background-color: #003C46; }
+
+.profile-division{
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #D6D3CC;
+    text-align: center; }
+
+.profile-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border-style: none;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: #C3E1E6; }
+
+.profile-type{
+    margin-top: 30px;
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgba(41, 76, 96, 0.70); }
+
+.type-info{
+    margin-top: -15px;
+    margin-bottom: -5px;
+    margin-left: 25px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #294C60; }
+
+.form-logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 30px; }
+
+.logout-btn {
+    width: 250px;
+    padding: 5px 0;
+    background-color: #05555A;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffff; }
+
+@media (max-width: 350px){
+    .forms-container {
+        position: absolute;
+        width: 100%;
+        height: 155%;
+        top: 0;
+        left: 0; }
+}
+
+@media (min-width: 360px) and (max-width: 380px){
+    .forms-container {
+        position: absolute;
+        width: 100%;
+        height: 115%;
+        top: 0;
+        left: 0; }
+    
+    .profile-box{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+        border-style: none;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        background-color: #C3E1E6; }
+}
+
+@media (min-height: 800px) and (max-height: 820px){
+    .profile-box{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+        border-style: none;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        background-color: #C3E1E6; }
+}
+
+@media (min-height: 830px) and (max-height: 900px){
+    .profile-box{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+        border-style: none;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        background-color: #C3E1E6; }
+}
+
+@media (min-height: 900px){
+    .profile-box{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+        border-style: none;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 130px;
+        background-color: #C3E1E6; }
+}
